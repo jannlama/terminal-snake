@@ -220,7 +220,7 @@ func main() {
 	log.SetOutput(nil)
 	SpawnFruits(Snake{
 		Head: SnakeSpawn,
-	}, 400)
+	}, 4)
 	term.Clear()
 	term.MoveCursor(1, 1)
 	term.Flush()
